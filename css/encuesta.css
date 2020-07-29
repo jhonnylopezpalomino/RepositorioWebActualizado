@@ -1,0 +1,48 @@
+body{
+	background-color: #ECE9E9;
+}
+
+form{
+	width: 450px;
+	margin: auto;
+	background: #C8D6D5;
+	padding: 20px 20px;
+	box-sizing: border-box;
+	margin-top: 10px;
+	border-radius: 7px;
+	font-size: 22px;
+}
+h2{
+	color:#030303;
+	text-align: center;
+	margin:0;
+	font-size: 30px;
+	margin-bottom: 20px;
+	margin-top: -40px;
+}
+
+input{
+	width: 100%;
+	margin-bottom: 0px;
+	padding: 5px;
+	box-sizing: border-box;
+	font-size: 23px;
+	border: none;
+}
+
+#boton{
+	background: #31384A;
+	color: #fff;
+	padding: 10px;
+	border-radius:5px;
+}
+#boton:hover{
+	cursor: pointer;
+}
+@media (max-width: 480px){
+	
+	form{
+		width: 100%;
+	}
+}
+
